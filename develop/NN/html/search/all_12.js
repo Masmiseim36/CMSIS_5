@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['w',['w',['../structcmsis__nn__tile.html#a9f99b4e1164c76f4ed6b32648d454283',1,'cmsis_nn_tile::w()'],['../structcmsis__nn__dims.html#a30b8961cc2f84ff79c399c31ff3563c0',1,'cmsis_nn_dims::w()']]],
-  ['word',['word',['../unionarm__nnword.html#a35c7b2ae25e35e0ddcd9ec0a1a6f8d18',1,'arm_nnword::word()'],['../unionarm__nn__long__long.html#a911c83d212457726d888e0c845a01155',1,'arm_nn_long_long::word()']]]
+  ['use_5ffast_5fdw_5fconv_5ffunction',['USE_FAST_DW_CONV_FUNCTION',['../group__NNConv.html#ga48d5105c2270fad5d5dc407d60bc894c',1,'arm_depthwise_conv_wrapper_s16.c']]],
+  ['use_5fintrinsic',['USE_INTRINSIC',['../arm__nnfunctions_8h.html#a710b6e009261290c6151f329cf409530',1,'arm_nnfunctions.h']]]
 ];
