@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="CMSIS_Logo_Final.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">CMSIS-RTOS2
-   &#160;<span id="projectnumber">Version 2.1.3</span>
+   &#160;<span id="projectnumber">Version 2.2.0</span>
    </div>
    <div id="projectbrief">Real-Time Operating System: API and RTX Reference Implementation</div>
   </td>
@@ -150,6 +150,9 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>OS_EVR_WAIT
 : <a class="el" href="rtx__evr_8h.html#aad9052994e484a85e2ea7c34b3957f29">rtx_evr.h</a>
 </li>
+<li>osErrorId
+: <a class="el" href="cmsis__os2_8h.html#a6f3bd4b67fb89bd085266fe65ee45b06">cmsis_os2.h</a>
+</li>
 <li>osFlagsError
 : <a class="el" href="cmsis__os2_8h.html#a01c1359c3a5640bff6e08f09bf94ce3a">cmsis_os2.h</a>
 </li>
@@ -161,6 +164,9 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 </li>
 <li>osFlagsErrorResource
 : <a class="el" href="group__flags__error__codes.html#ga4db38b50da1889bcaaa7f747e844f904">cmsis_os2.h</a>
+</li>
+<li>osFlagsErrorSafetyClass
+: <a class="el" href="cmsis__os2_8h.html#a20291c61e351702230d4ad5546992be2">cmsis_os2.h</a>
 </li>
 <li>osFlagsErrorTimeout
 : <a class="el" href="group__flags__error__codes.html#ga2e951c3f1c3b7bff4eca3d7836cd19ca">cmsis_os2.h</a>
@@ -186,14 +192,38 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>osMutexRobust
 : <a class="el" href="group__CMSIS__RTOS__MutexMgmt.html#gaf0e1dee376798b4d516d164981526780">cmsis_os2.h</a>
 </li>
+<li>osRtxAttrClass_Msk
+: <a class="el" href="rtx__os_8h.html#ad759dff53ca0d07e9961574e603a18a9">rtx_os.h</a>
+</li>
+<li>osRtxAttrClass_Pos
+: <a class="el" href="rtx__os_8h.html#afbeff0c9091b0b5e488a36906951fd55">rtx_os.h</a>
+</li>
+<li>osRtxConfigExecutionZone
+: <a class="el" href="rtx__os_8h.html#abad886368c11fe117bef0015dc7c0cc5">rtx_os.h</a>
+</li>
+<li>osRtxConfigObjPtrCheck
+: <a class="el" href="rtx__os_8h.html#ae1ef8245860bf4d2c49703e6268f2dd2">rtx_os.h</a>
+</li>
 <li>osRtxConfigPrivilegedMode
 : <a class="el" href="rtx__os_8h.html#a0eb4da5bed45820d732e23483b870152">rtx_os.h</a>
+</li>
+<li>osRtxConfigSafetyClass
+: <a class="el" href="rtx__os_8h.html#a6867e4bd24233afb116f09df92391758">rtx_os.h</a>
+</li>
+<li>osRtxConfigSafetyFeatures
+: <a class="el" href="rtx__os_8h.html#a0426c011e0804deb26c1e6a9d3079416">rtx_os.h</a>
 </li>
 <li>osRtxConfigStackCheck
 : <a class="el" href="rtx__os_8h.html#a77f3e906438a6693524cdc257cb0bf23">rtx_os.h</a>
 </li>
 <li>osRtxConfigStackWatermark
 : <a class="el" href="rtx__os_8h.html#a62205cc79ec5d95b45f5ebfdf126438c">rtx_os.h</a>
+</li>
+<li>osRtxConfigSVCPtrCheck
+: <a class="el" href="rtx__os_8h.html#a6b9bf4b89aafc77a083c71b53cf31233">rtx_os.h</a>
+</li>
+<li>osRtxConfigThreadWatchdog
+: <a class="el" href="rtx__os_8h.html#ab3ec60c49943fafdd8d2e09180855c07">rtx_os.h</a>
 </li>
 <li>osRtxErrorClibMutex
 : <a class="el" href="group__rtx5__specific__defines.html#gac749c24b9cf6c49b392b015ed0517cfc">rtx_os.h</a>
@@ -209,6 +239,9 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 </li>
 <li>osRtxErrorInvalidPriority
 : <a class="el" href="rtx__evr_8h.html#a45219e125941ecbe7eca030fd2f40d7a">rtx_evr.h</a>
+</li>
+<li>osRtxErrorInvalidPrivilegedMode
+: <a class="el" href="rtx__evr_8h.html#aca8fbf975cfa8faadeff7db875184673">rtx_evr.h</a>
 </li>
 <li>osRtxErrorInvalidThreadStack
 : <a class="el" href="rtx__evr_8h.html#a5cabacbb758a1bc5012cae2292771726">rtx_evr.h</a>
@@ -239,6 +272,9 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 </li>
 <li>osRtxErrorStackUnderflow
 : <a class="el" href="group__rtx5__specific__defines.html#ga42206aa2524b8fab613d26bea0f73c44">rtx_os.h</a>
+</li>
+<li>osRtxErrorSVC
+: <a class="el" href="group__rtx5__specific__defines.html#ga5ebf507d79cc3fdd69e951db0416249d">rtx_os.h</a>
 </li>
 <li>osRtxErrorThreadNotJoinable
 : <a class="el" href="rtx__evr_8h.html#a1955ed26bf52d4fd07a73961ee6a1478">rtx_evr.h</a>
@@ -308,6 +344,15 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 </li>
 <li>osRtxKernelLocked
 : <a class="el" href="rtx__os_8h.html#a9c20a179e70e74fa9fe9f9ba275cc73b">rtx_os.h</a>
+</li>
+<li>osRtxKernelProtectClass_Msk
+: <a class="el" href="rtx__os_8h.html#a61e4a8dfd4e3420a2561892469cd95ce">rtx_os.h</a>
+</li>
+<li>osRtxKernelProtectClass_Pos
+: <a class="el" href="rtx__os_8h.html#ae733546ce5242e51d8ccccf05b7584ff">rtx_os.h</a>
+</li>
+<li>osRtxKernelProtectPrivileged
+: <a class="el" href="rtx__os_8h.html#a1d36369148ee8c0996f722baa856c813">rtx_os.h</a>
 </li>
 <li>osRtxKernelReady
 : <a class="el" href="rtx__os_8h.html#ab793b30296108737eb356871d266e2a2">rtx_os.h</a>
@@ -423,11 +468,47 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>osRtxVersionKernel
 : <a class="el" href="rtx__os_8h.html#ad854168120979e8c60630e0140e104e8">rtx_os.h</a>
 </li>
+<li>osSafetyClass
+: <a class="el" href="group__CMSIS__RTOS__Definitions.html#ga604fce4f5205f92c347eb62fcc216861">cmsis_os2.h</a>
+</li>
+<li>osSafetyClass_Msk
+: <a class="el" href="cmsis__os2_8h.html#a5265621e9f1da2a189e7cfa90907f45c">cmsis_os2.h</a>
+</li>
+<li>osSafetyClass_Pos
+: <a class="el" href="cmsis__os2_8h.html#a3732ae0de04b65cf0291c0bfa0ae5284">cmsis_os2.h</a>
+</li>
+<li>osSafetyClass_Valid
+: <a class="el" href="cmsis__os2_8h.html#ad18d1441527dcd76ebf3e558799d32dc">cmsis_os2.h</a>
+</li>
+<li>osSafetyWithLowerClass
+: <a class="el" href="group__CMSIS__RTOS__Definitions.html#ga8c77ee126b9215425fc004ee13cdc6de">cmsis_os2.h</a>
+</li>
+<li>osSafetyWithSameClass
+: <a class="el" href="group__CMSIS__RTOS__Definitions.html#ga7abd2d95425d9e02672778b3464b2eaa">cmsis_os2.h</a>
+</li>
 <li>osThreadDetached
 : <a class="el" href="group__CMSIS__RTOS__ThreadMgmt.html#gaa9336c1073858d6b118e2e011636246f">cmsis_os2.h</a>
 </li>
 <li>osThreadJoinable
 : <a class="el" href="group__CMSIS__RTOS__ThreadMgmt.html#ga249499c519f3f8eef5673009ab6cfcbe">cmsis_os2.h</a>
+</li>
+<li>osThreadPrivileged
+: <a class="el" href="group__CMSIS__RTOS__ThreadMgmt.html#ga7c2b7db42d23e4f56132e0ed739d02e5">cmsis_os2.h</a>
+</li>
+<li>osThreadUnprivileged
+: <a class="el" href="group__CMSIS__RTOS__ThreadMgmt.html#ga4c028e5c3f4d86d237a1e09ceaf84792">cmsis_os2.h</a>
+</li>
+<li>osThreadZone
+: <a class="el" href="group__CMSIS__RTOS__ThreadMgmt.html#gaefca370070d0b1616421bc3311acfecc">cmsis_os2.h</a>
+</li>
+<li>osThreadZone_Msk
+: <a class="el" href="cmsis__os2_8h.html#a1f31605585359cbb77ba006d0f735599">cmsis_os2.h</a>
+</li>
+<li>osThreadZone_Pos
+: <a class="el" href="cmsis__os2_8h.html#a31e30a34ed6137443fbe2c453be8bfc0">cmsis_os2.h</a>
+</li>
+<li>osThreadZone_Valid
+: <a class="el" href="cmsis__os2_8h.html#a45bf09ac779100bd4c52a7e9fca82bf1">cmsis_os2.h</a>
 </li>
 <li>osWaitForever
 : <a class="el" href="group__CMSIS__RTOS__Definitions.html#ga9eb9a7a797a42e4b55eb171ecc609ddb">cmsis_os2.h</a>
